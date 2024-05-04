@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#home .container:nth-child(1){
+    padding-left: 15px;
+    padding-right: 15px;;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.detailedPhoto{
+    justify-content: center;
+    display: flex;
+    margin-right: 25px;
+}
+.detailedPhoto .imageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailedPhoto .imageDiv img{
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 100%;
+}
+
+#home .line{
+    border-radius: 5px;
+    padding: 0px;
+    width: 5px;
+    justify-content: center;
+    display: flex;
+
+    background: #656565;
+}
+
+.HeaderContainer{
+    display: flex;
+    flex-direction: column;
+}
+.HeaderText{
+    margin-top: auto !important;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+.Header1Name{
+    font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+}
+.Header2{
+    color: #656565;
+}
+.phillcard{
+    margin-top: 25px !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Phill{
+    width: 148px !important;
+    text-align: center;
+   
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    background: #FFCE08;
+    width: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Phill h6{
+    margin:0px;
+    font-size: 12px;
+}
+
+
+
+
+
+@media only screen and (max-device-width:912px){
+    .detailedPhoto {
+        margin-right: 0px !important;
+    }
+    #home .line{
+        width: 100%;
+        height: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .HeaderText{
+        margin-left: 0px;
+    }
+    .HeaderContainer{
+        text-align: center;
+    }
+    .phillcard{
+        justify-content: center;
+    }
+    .Phill{
+        margin-left: 10px;;
+    }
+    #home .container:nth-child(1){
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
