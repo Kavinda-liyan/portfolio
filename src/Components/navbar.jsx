@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 function NavBar(){
+    
 const scrollSection =(id)=>{
     const section =document.getElementById(id);
     if(section){

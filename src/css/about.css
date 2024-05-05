@@ -1,0 +1,60 @@
+
+#about{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutPhoto{
+    justify-content: center;
+    display: inherit;
+    flex-direction: column;
+}
+.AboutPhoto img{
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+}
+.AboutCardcontainer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ;
+}
+.AboutCardcontainer .row{
+    height: 100%;
+}
+.cvContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.downloadBtn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #FFCE08;
+    border-radius: 10px;
+    font-size: 12px;
+    width: fit-content;
+    color: black;
+    font-weight: 800;
+}
+
+.downloadBtn{
+    margin: 10px auto;
+}
+.aboutLine1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 5px;
+    background: #6565659f;
+    padding-left: 0px;
+    padding-right: 0px;
+}

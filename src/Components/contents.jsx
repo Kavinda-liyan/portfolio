@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./navbar";
 import Homepage from "./homepage";
+import About from "./about";
 import { Container } from "react-bootstrap";
 import '../css/content.css';
 
@@ -12,11 +13,11 @@ function NewContents(){
     
     </div>
     <div id="about" className="section">
-        <h1>Hello world</h1>
+    <About></About>
     
     </div>
     <div id="skills" className="section">
-        <h1>Hello world</h1>
+       
     
     </div>
     <div id="projects" className="section">

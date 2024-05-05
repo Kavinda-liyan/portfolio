@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row,Col,Container } from "react-bootstrap";
 import detailedphoto from '../assets/detailedphoto.jpg';
 import '../css/homepage.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function Homepage(){
+
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[])
+
     return(
 <Container>
     <Row>
-        <Col lg={5} sm={12} className="detailedPhoto">
+        <Col lg={5} sm={12} className="detailedPhoto" data-aos="fade-right">
             <div className="imageDiv ">
                 <img alt="DetailedPhoto" src={detailedphoto}></img>
             </div>
@@ -16,7 +23,7 @@ function Homepage(){
 
         </Col>
         <Col lg={1} className="line"></Col>
-        <Col lg={6} className="HeaderText">
+        <Col lg={6} className="HeaderText" data-aos="fade-left">
             <div className="HeaderContainer">
             <h1 className="Header1Name">Hi, I'm Kavinda <span className="Header1Littletext">Liyanaarachchi</span></h1>
             <h4 className="Header2">UI/UX ENGINEER</h4>
