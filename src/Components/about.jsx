@@ -5,7 +5,11 @@ import MyPhoto from '../assets/MyPhoto.png';
 import Button from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin,faWhatsapp,faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, } from "@fortawesome/free-regular-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+
+
 
 function About(){
     return(
@@ -17,7 +21,7 @@ function About(){
                         <Col lg={5} className="cvContainer">
                             <div className="AboutPhoto">
                             <img src={MyPhoto}></img>
-                            <Link className="CV" to={"https://drive.google.com/file/d/13X_Ek-uO2LcIyF2kDxMf-Vd-J22Qtd60/view?usp=sharing"} target="_blank"> <FontAwesomeIcon icon="fa-solid fa-download" /></Link>
+                            <Link className="CV" to={"https://drive.google.com/file/d/13X_Ek-uO2LcIyF2kDxMf-Vd-J22Qtd60/view?usp=sharing"} target="_blank"> </Link>
                            
 
                             </div>
@@ -25,7 +29,18 @@ function About(){
                         </Col>
                         <Col lg={1} className="aboutLine1">
                         </Col>
-                        <Col>
+                        <Col lg={6} className="cvTextContainer">
+                            <h3>A.L.A.C Kavinda Liyanarachchi </h3>
+                            <p><Link to='javascript:void(0)'
+      onClick={() => window.location = 'chamarakavinda@hotmail.com'}><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> Chamarakavinda@hotmail.com </Link> </p>
+                            <p><FontAwesomeIcon icon={faPhone} /> 0774421707</p>
+                            <p><Link to={"https://www.linkedin.com/in/kavinda-liyanaarachchi-729b14262/"} target="_blank"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon> Kavinda Liyanaarchchci</Link></p>
+                            <p><Link to={"https://github.com/Kavinda-liyan"} target="_blank"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>Kavinda Liyanaarachchi </Link></p>
+                            <p>I've recently completed a <span className="StrongText">Higher National Diploma in Information Technology</span> at the Advanced Technological Institute in Dehiwala. 
+                                I also recently concluded a six-month internship at<br></br> <span className="StrongText">"I-context(Pvt)Ltd"</span> as a UI/UX Engineer.
+                                 My experiences have ignited a deep passion for both web development and graphic design.</p>
+
+
                        </Col>
                     
                 

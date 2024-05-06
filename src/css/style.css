@@ -1,0 +1,17 @@
+.scroll-to-top{
+    z-index: 1000;
+    position: fixed;
+    top: 90vh;
+    right: 0px;
+    margin-right: 25px;
+}
+
+.ArrowIcon{
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #FFCE08;
+    border-radius: 5px;
+}

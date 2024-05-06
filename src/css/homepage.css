@@ -30,11 +30,14 @@
     aspect-ratio: 1/1;
     width: 100%;
     border-radius: 100%;
+    transition: box-shadow 0.5s ease-out 100ms;
+    transition: width 0.5s ease-out 100ms;
 }
 
 .detailedPhoto .imageDiv img:hover{
     box-shadow: 1px 1px 23px #FFCE08;
-    transition: 0.5s;
+    width: 99%;
+   
 }
 
 #home .line{
@@ -82,7 +85,12 @@
     padding: 10px;
     border-radius: 30px;
     box-shadow: 1px 1px 2px #65656577;
+    transition: box-shadow 0.5s ease-out 100ms;
    
+}
+
+.Phill:hover{
+    box-shadow: 1px 1px 10px #FFCE08;
 }
 .Phill h6{
     margin:0px;

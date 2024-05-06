@@ -18,6 +18,13 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 100%;
+    transition: box-shadow 0.5s ease-out 100ms;
+    transition: width 0.5s ease-out 100ms;
+}
+
+.AboutPhoto img:hover{
+    box-shadow: 1px 1px 23px #FFCE08;
+    width: 99%;
 }
 .AboutCardcontainer{
     margin-top: 50px;
@@ -51,10 +58,22 @@
     margin: 10px auto;
 }
 .aboutLine1{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    border-radius:5px ;
     width: 5px;
-    background: #6565659f;
+    background: #656565;
     padding-left: 0px;
     padding-right: 0px;
+}
+.cvTextContainer{
+    margin-left: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.cvTextContainer p{
+    color: #656565;
+}
+
+.StrongText{
+    font-weight: 800;
+    color: rgb(255, 64, 64);
 }
