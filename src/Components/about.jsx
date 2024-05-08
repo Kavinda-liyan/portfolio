@@ -13,6 +13,11 @@ import { faPhone,faDownload } from "@fortawesome/free-solid-svg-icons";
 
 
 function About(){
+    const downloadPDF = () => {
+        
+        const pdfUrl = 'https://drive.google.com/file/d/13X_Ek-uO2LcIyF2kDxMf-Vd-J22Qtd60/view?usp=sharing';
+        window.open(pdfUrl, '_blank');
+      };
     return(
        <Container>
        
@@ -43,7 +48,7 @@ function About(){
                                 I also recently concluded a six-month internship at<br></br> <span className="StrongText">"I-context(Pvt)Ltd"</span> as a UI/UX Engineer.
                                  My experiences have ignited a deep passion for both web development and graphic design.</p>
 
-                            <p className="CvbtnContainer"><Link className="CvBtn"><FontAwesomeIcon icon={faDownload}/> CV </Link> </p>
+                            <p className="CvbtnContainer"  onClick={downloadPDF}><Link className="CvBtn"><FontAwesomeIcon icon={faDownload}/> CV </Link> </p>
 
 
                        </Col>

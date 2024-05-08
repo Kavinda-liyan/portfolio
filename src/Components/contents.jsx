@@ -5,6 +5,7 @@ import About from "./about";
 import Skills from "./skills";
 import { Container } from "react-bootstrap";
 import '../css/content.css';
+import Projects from "./projects";
 
 function NewContents(){
     return(
@@ -23,7 +24,7 @@ function NewContents(){
     
     </div>
     <div id="projects" className="section">
-        <h1>Hello world</h1>
+        <Projects/>
     
     </div>
        
