@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin,faWhatsapp,faGithub,faDribbble } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, } from "@fortawesome/free-regular-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPhone,faDownload } from "@fortawesome/free-solid-svg-icons";
+
 
 
 
@@ -41,6 +42,8 @@ function About(){
                             <p>I've recently completed a <span className="StrongText">Higher National Diploma in Information Technology</span> at the Advanced Technological Institute in Dehiwala. 
                                 I also recently concluded a six-month internship at<br></br> <span className="StrongText">"I-context(Pvt)Ltd"</span> as a UI/UX Engineer.
                                  My experiences have ignited a deep passion for both web development and graphic design.</p>
+
+                            <p className="CvbtnContainer"><Link className="CvBtn"><FontAwesomeIcon icon={faDownload}/> CV </Link> </p>
 
 
                        </Col>

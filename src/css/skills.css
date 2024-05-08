@@ -1,0 +1,347 @@
+
+.SkillsContainer{
+    margin-top:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.SkillsContainer h3{
+    font-size: 48px;
+    text-align: center;
+}
+.SkillsContainer .row{
+    margin-top: 25px;;
+}
+
+.topic h4{
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.topic h4:hover{
+    filter: brightness(0) saturate(100%) invert(57%) sepia(79%) saturate(5196%) hue-rotate(336deg) brightness(103%) contrast(106%);
+    color: rgb(255, 64, 64);
+}
+
+.Frontendcontainer #logo,
+.Backendcontainer #logo,
+.DatabaseContainer #logo,
+.ToolContainer #logo{
+    margin-top: 5px;
+}
+ 
+
+#logo h5 svg{
+    width:35px;
+}
+.topic h4 svg{
+    width:35px;
+}
+/* html */
+.Frontendcontainer .html .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .html .progressbar .level{
+    height:5px;
+    width: 90%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* css */
+.Frontendcontainer .css .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .css .progressbar .level{
+    height:5px;
+    width: 80%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* Scss */
+.Frontendcontainer .sass .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .sass .progressbar .level{
+    height:5px;
+    width: 60%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* js */
+.Frontendcontainer .js .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .js .progressbar .level{
+    height:5px;
+    width: 60%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* react */
+.Frontendcontainer .react .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .react .progressbar .level{
+    height:5px;
+    width: 60%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* bs */
+.Frontendcontainer .bs .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .bs .progressbar .level{
+    height:5px;
+    width: 80%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* tw */
+.Frontendcontainer .tw .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .tw .progressbar .level{
+    height:5px;
+    width: 50%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* mui */
+.Frontendcontainer .mui .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .mui .progressbar .level{
+    height:5px;
+    width: 50%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+
+/* angular */
+.Frontendcontainer .angular .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .angular .progressbar .level{
+    height:5px;
+    width: 30%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+
+/* java */
+.Backendcontainer .java .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Backendcontainer .java .progressbar .level{
+    height:5px;
+    width: 40%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* php */
+.Backendcontainer .php .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.Backendcontainer .php .progressbar .level{
+    height:5px;
+    width: 40%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* sql */
+.DatabaseContainer .sql .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.DatabaseContainer .sql .progressbar .level{
+    height:5px;
+    width: 40%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+
+/* figma */
+.ToolContainer .figma .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .figma .progressbar .level{
+    height:5px;
+    width: 70%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* xd */
+.ToolContainer .xd .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .xd .progressbar .level{
+    height:5px;
+    width: 50%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+
+/* ps */
+.ToolContainer .ps .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .ps .progressbar .level{
+    height:5px;
+    width: 80%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* ai */
+.ToolContainer .ai .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .ai .progressbar .level{
+    height:5px;
+    width: 80%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* pp */
+.ToolContainer .pp .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .pp .progressbar .level{
+    height:5px;
+    width: 50%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* ae */
+.ToolContainer .ae .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .ae .progressbar .level{
+    height:5px;
+    width: 40%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+/* ae */
+.ToolContainer .dr .progressbar{
+    width: 100%;
+    background: rgb(141, 141, 141);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.ToolContainer .dr .progressbar .level{
+    height:5px;
+    width: 40%;
+    background:#FFCE08;
+    border-radius: 5px;
+}
+
+.Frontendcontainer .barContainer,
+.Backendcontainer .barContainer,
+.DatabaseContainer .barContainer,
+.ToolContainer .barContainer {
+    align-items: center;
+    display: flex;
+}
+ 
+
+.logo .col-lg-5:nth-child(1) h5{
+    margin-bottom: 0px;
+}
+
+.Frontendcontainer .skilltxt,
+.Backendcontainer .skilltxt,
+.DatabaseContainer .skilltxt,
+.ToolContainer .skilltxt{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.topic {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.Expand{
+    animation: fadeIn 1s; 
+}
+@keyframes fadeIn {
+    0% { height: 0%;
+        opacity: 0;
+     }
+    100% { height: 100%; 
+    opacity: 1;}
+  }

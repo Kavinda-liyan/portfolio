@@ -90,3 +90,40 @@
 .cvTextContainer p a:hover{
     color: #1a1a1a;
 }
+.CvBtn{
+    padding: 5px 10px;
+    background: #FFCE08;
+    border-radius: 50px;
+}
+
+.CvbtnContainer{
+    text-align: end;
+}
+.CvBtn:hover{
+    background: #ffdf5d;
+    box-shadow: 1px 1px 2px rgb(207, 207, 207);
+}
+
+@media only screen and (max-device-width:768px){
+    .cvContainer{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cvTextContainer{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .aboutLine1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        height: 4px;
+        border-radius: 5px;
+        width: 100%;
+        background: #656565;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .cvTextContainer h3{
+        font-size: 22px;
+    }
+}
