@@ -3,7 +3,7 @@
 
 
 .section {
-    min-height: 100vh;
+    min-height: 100%;
 }
 .section *{
     font-family: "Montserrat", sans-serif;

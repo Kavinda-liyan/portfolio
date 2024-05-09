@@ -8,3 +8,32 @@
     font-size: 48px;
     text-align: center;
 }
+.ProjectCard{
+    height: 320px;
+    margin-bottom: 25px;
+  border-bottom: 2px solid rgba(189, 189, 189, 0.413);
+}
+
+.ProjectCard h5{
+    text-align: center;
+}
+.ProjectCard p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.projectsContainer .row:nth-child(1){
+margin-top: 50px;
+}
+
+.projectImages{
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.projectlinks{
+    text-decoration: none;
+}
