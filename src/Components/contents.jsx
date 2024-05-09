@@ -7,6 +7,7 @@ import { Container } from "react-bootstrap";
 import '../css/content.css';
 import Projects from "./projects";
 
+
 function NewContents(){
     return(
         <Container>
@@ -27,6 +28,8 @@ function NewContents(){
         <Projects/>
     
     </div>
+
+   
        
         </Container>
         

@@ -1,0 +1,20 @@
+.footerContainer{
+    background:rgb(155, 155, 155);
+    height: 100px;
+    min-width: 100%;
+}
+.logofooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.logofooter .col-lg-2{
+    width: 5%;
+}
+.logofooter .col-lg-2 a{
+    font-size: 32px;;
+}
+.footerContainer  h6{
+    text-align: center;
+    padding-bottom: 10px;
+}

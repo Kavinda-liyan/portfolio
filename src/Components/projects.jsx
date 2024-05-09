@@ -16,6 +16,7 @@ import { faGithub, faWebAwesome } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 
+
 function Projects(){
     return(
         <Container className="projectsContainer">
@@ -53,6 +54,8 @@ function Projects(){
                     </Col>
                     
                     </Row>
+
+                    
                    
                 
             </Container>
