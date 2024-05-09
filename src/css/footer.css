@@ -9,7 +9,7 @@
     justify-content: center;
 }
 .logofooter .col-lg-2{
-    width: 5%;
+    width: fit-content;
 }
 .logofooter .col-lg-2 a{
     font-size: 32px;;

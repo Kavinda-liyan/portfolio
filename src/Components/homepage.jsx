@@ -15,7 +15,7 @@ function Homepage(){
     return(
 <Container>
     <Row>
-        <Col lg={5} sm={12} className="detailedPhoto" data-aos="fade-right">
+        <Col lg={5} sm={12} className="detailedPhoto" >
             <div className="imageDiv ">
                 <img alt="DetailedPhoto" src={detailedphoto}></img>
             </div>
@@ -23,7 +23,7 @@ function Homepage(){
 
         </Col>
         <Col lg={1} className="line"></Col>
-        <Col lg={6} className="HeaderText" data-aos="fade-left">
+        <Col lg={6} className="HeaderText" >
             <div className="HeaderContainer">
             <h1 className="Header1Name">Hi, I'm Kavinda <span className="Header1Littletext">Liyanaarachchi</span></h1>
             <h4 className="Header2">UI/UX ENGINEER</h4>

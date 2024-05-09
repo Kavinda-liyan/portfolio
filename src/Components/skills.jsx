@@ -8,8 +8,16 @@ import { faDatabase, faEdit, faPhotoFilm, faServer, faTools, faVideo } from "@fo
 import { faCss3,faHtml5,faSass,faJs, faReact, faBootstrap, faJava, faPhp, faStackExchange, faAngular, faFigma } from "@fortawesome/free-brands-svg-icons";
 import SkillComp from "./skills/skillComponent";
 import { faFileCode } from "@fortawesome/free-solid-svg-icons/faFileCode";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function Skills(){
+
+  useEffect(()=>{
+    Aos.init({duration:2000});
+},[]);
+
     const [frontendCollapsed, setIsFrontendCollapsed] = useState(true);
     const [backendCollapsed, setIsBackendCollapsed] = useState(true);
     const [databaseCollapsed,setIsDatabaseCollapsed]=useState(true);
@@ -49,7 +57,7 @@ function Skills(){
 <Container className="SkillsContainer" >
     <h3> Skills</h3>
     <Row >
-        <Col lg={6}>
+        <Col lg={6} >
            <Container className="topic">
             <h4 onClick={toggleFrontend}><FontAwesomeIcon icon={faCode}/> Front-end</h4>
             
@@ -101,7 +109,7 @@ function Skills(){
            
         </Col>
         
-        <Col lg={6}>
+        <Col lg={6} >
         <Container className="topic">
             <h4 onClick={toggleDatabase}><FontAwesomeIcon icon={faStackExchange}/>  Database</h4>
             <Container>

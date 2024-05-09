@@ -8,11 +8,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin,faWhatsapp,faGithub,faDribbble } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, } from "@fortawesome/free-regular-svg-icons";
 import { faPhone,faDownload } from "@fortawesome/free-solid-svg-icons";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 
 
 function About(){
+    useEffect(()=>{
+        Aos.init({duration:2000});
+    },[])
+
     const downloadPDF = () => {
         
         const pdfUrl = 'https://drive.google.com/file/d/13X_Ek-uO2LcIyF2kDxMf-Vd-J22Qtd60/view?usp=sharing';
@@ -24,7 +31,7 @@ function About(){
             
                 <Row className="AboutCardcontainer">
                     
-                        <Col lg={5} className="cvContainer">
+                        <Col lg={5} className="cvContainer " >
                             <div className="AboutPhoto">
                             <img src={MyPhoto}></img>
                             <Link className="CV" to={"https://drive.google.com/file/d/13X_Ek-uO2LcIyF2kDxMf-Vd-J22Qtd60/view?usp=sharing"} target="_blank"> </Link>
@@ -33,9 +40,9 @@ function About(){
                             </div>
                             
                         </Col>
-                        <Col lg={1} className="aboutLine1">
+                        <Col lg={1} className="aboutLine1"  >
                         </Col>
-                        <Col lg={6} className="cvTextContainer">
+                        <Col lg={6} className="cvTextContainer"  >
                             <h3>A.L.A.C Kavinda Liyanarachchi </h3>
                             <p><Link to='javascript:void(0)'
       onClick={() => window.location = 'chamarakavinda@hotmail.com'}><FontAwesomeIcon icon={faEnvelope}/> Chamarakavinda@hotmail.com </Link> </p>
