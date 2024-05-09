@@ -34,7 +34,7 @@ function About(){
                         <Col lg={5} className="cvContainer " >
                             <div className="AboutPhoto">
                             <img src={MyPhoto}></img>
-                            <Link className="CV" to={"https://drive.google.com/file/d/13X_Ek-uO2LcIyF2kDxMf-Vd-J22Qtd60/view?usp=sharing"} target="_blank"> </Link>
+                            <Link className="CV" to={"https://drive.google.com/file/d/17RQYTA2r-RgwVnpIHxs8nqPdWJia32CB/view?usp=sharing"} target="_blank"> </Link>
                            
 
                             </div>
