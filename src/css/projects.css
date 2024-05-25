@@ -1,6 +1,6 @@
 .projectsContainer{
-    margin-top:50px;
-    padding-top: 50px;
+    
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -36,4 +36,14 @@ margin-top: 50px;
 
 .projectlinks{
     text-decoration: none;
+}
+
+.dark #projects{
+    background: rgb(2,14,33);
+    color: #ffffff !important;
+
+}
+
+.dark #projects .ProjectCard{
+    color: #ffffff !important;
 }

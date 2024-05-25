@@ -1,22 +1,33 @@
-
+import React, { useState, useEffect } from "react";
 import NavBar from "../Components/navbar";
 import NewContents from "../Components/contents";
 import ScrollToTop from "../Components/ScrollToTop";
-import '../css/style.css'
 import Footer from "../Components/footer";
-function Home(){
-    return(
-        <div>
- <NavBar/>
- <NewContents/>
- <ScrollToTop/>
- <Footer/>
+import '../css/style.css';
 
+function Home() {
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme ? JSON.parse(savedTheme) : false;
+  });
 
-        </div>
-       
+  useEffect(() => {
+    document.body.className = isDarkMode ? 'dark' : 'light';
+    localStorage.setItem('theme', JSON.stringify(isDarkMode));
+  }, [isDarkMode]);
 
-    );
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+
+  return (
+    <div   >
+      <NavBar toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
+      <NewContents  toggleTheme={toggleTheme} isDarkMode={isDarkMode}/>
+      <ScrollToTop />
+      <Footer />
+    </div>
+  );
 }
 
 export default Home;

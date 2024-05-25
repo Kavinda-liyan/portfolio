@@ -95,9 +95,14 @@
 .Phill h6{
     margin:0px;
     font-size: 12px;
+    color: #000000  !important;
 }
 
+.dark #home{
+    background: rgb(2,14,33);
+    color: #ffffff;
 
+}
 
 
 

@@ -13,7 +13,7 @@ function Homepage(){
     },[])
 
     return(
-<Container>
+<Container >
     <Row>
         <Col lg={5} sm={12} className="detailedPhoto" >
             <div className="imageDiv ">

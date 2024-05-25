@@ -103,7 +103,20 @@
     background: #ffdf5d;
     box-shadow: 1px 1px 2px rgb(207, 207, 207);
 }
+.dark #about{
+    background: rgb(2,14,33);
+    color: #ffffff !important;
 
+}
+.dark #about .cvTextContainer p{
+    color: #ffffff !important;
+}
+.dark #about .cvTextContainer p a{
+    color: #ffffff !important;
+}
+.dark #about .cvTextContainer p a:hover{
+    color: #a1a1a1 !important;
+}
 @media only screen and (max-device-width:768px){
     .cvContainer{
         margin-left: 0px;
