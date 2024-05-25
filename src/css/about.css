@@ -22,10 +22,7 @@
     transition: width 0.5s ease-out 100ms;
 }
 
-.AboutPhoto img:hover{
-    box-shadow: 1px 1px 23px #FFCE08;
-    width: 99%;
-}
+
 .AboutCardcontainer{
     margin-top: 50px;
     padding-top: 50px;
