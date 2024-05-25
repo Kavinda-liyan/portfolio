@@ -1,5 +1,5 @@
 .footerContainer{
-    background:rgb(155, 155, 155);
+    background:unset;
     height: 100px;
     min-width: 100%;
 }

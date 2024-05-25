@@ -6,7 +6,7 @@ import { faBehance, faDribbble, faFacebook, faGithub, faLinkedin } from "@fortaw
 import { Link } from "react-router-dom";
 
 
-function Footer(){
+function Footer({ isDarkMode }){
     return(
 <Container className="footerContainer">
     <Row className="logofooter">
