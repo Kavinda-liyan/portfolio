@@ -26,7 +26,7 @@ function Homepage(){
         <Col lg={6} className="HeaderText" >
             <div className="HeaderContainer">
             <h1 className="Header1Name">Hi, I'm Kavinda <span className="Header1Littletext">Liyanaarachchi</span></h1>
-            <h4 className="Header2">UI/UX ENGINEER</h4>
+            <h4 className="Header2"></h4>
             <p>I have good experience as an UI/UX engineer.
 Moreover, I'm familier with front-end frameworks (React js) and extra CSS, SASS,Bootsrap,Matirial UI and Tailwindcss knowledge. </p>
 
